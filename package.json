@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-wandi",
+  "version": "1.0.0",
+  "description": "Wandi ESLint configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WandiParis/eslint-config-wandi.git"
+  },
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "author": "Cyrille Perois <cyrille.perois@wandi.fr>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WandiParis/eslint-config-wandi/issues"
+  },
+  "homepage": "https://github.com/WandiParis/eslint-config-wandi#readme"
+}
