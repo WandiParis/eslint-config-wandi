@@ -1,5 +1,5 @@
 module.exports = {
-    parserOption: {
+    parserOptions: {
         ecmaVersion: 2017,
         sourceType: "module",
         ecmaFeatures: {
