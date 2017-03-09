@@ -133,7 +133,6 @@ module.exports = {
         "no-underscore-dangle": "warn",
         "no-unneeded-ternary": "warn",
         "no-whitespace-before-property": "warn",
-        "object-curly-newline": ["warn", { minProperties: 2 }],
         "object-curly-spacing": ["warn", "always"],
         "object-property-newline": "warn",
         "one-var-declaration-per-line": "warn",
