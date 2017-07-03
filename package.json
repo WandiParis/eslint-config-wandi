@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/WandiParis/eslint-config-wandi#readme",
   "peerDependencies": {
-    "eslint": ">=3.13.0"
+    "eslint": "^4.1.0",
+    "eslint-plugin-import": "^2.6.1"
   }
 }

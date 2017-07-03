@@ -1,13 +1,17 @@
 # eslint-config-wandi
 
-Wandi ESLint configurations
+Wandi ESLint configuration
 
 ## Install
 
-To install the configuration, you just have to run the following command :
+This package has some peer dependencies. The recommended way to install it and
+its peer dependencies in a single command is to install
+[`install-peerdeps`](https://github.com/nathanhleung/install-peerdeps) and run
+it :
 
 ```
-npm install --save-dev eslint-config-wandi
+npm install -g install-peerdeps
+install-peerdeps --dev @wandiparis/eslint-config-wandi
 ```
 
 ## How to use
@@ -19,20 +23,13 @@ to see other supported formats), add the following `extends` property :
 
 ```js
 module.exports = {
-    extends: "wandi"
-}
+    extends: "@wandiparis/eslint-config-wandi"
+};
 ```
 
-## Development and production configurations
+## Rules
 
-By default, the configuration is in development mode. In this mode, some rules
-just raise a warning even if they are critical in production. For example, when
-we are developing, we want to be able to do some `console.log`ing.
+The config extends some other configurations :
 
-To use the production configuration, use the following `extends` property :
-
-```js
-module.exports = {
-    extends: "wandi/prod"
-}
-```
+* `eslint-recommended` (see rules that have a check mark on [eslint rules list](http://eslint.org/docs/rules/))
+* `plugin:import/errors` from [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)
