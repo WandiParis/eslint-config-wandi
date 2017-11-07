@@ -1,6 +1,6 @@
 {
   "name": "@wandiparis/eslint-config-wandi",
-  "version": "2.0.0-alpha.1",
+  "version": "2.0.0",
   "description": "Wandi ESLint configuration",
   "main": "index.js",
   "scripts": {
